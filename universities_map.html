@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c4ee98564c92df6b6540b4ee2c874a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1c4ee98564c92df6b6540b4ee2c874a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c4ee98564c92df6b6540b4ee2c874a2 = L.map(
+                "map_1c4ee98564c92df6b6540b4ee2c874a2",
+                {
+                    center: [35.0, 105.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a6f1dd380aaf084fc4fdc142a3bcfb0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8a6f1dd380aaf084fc4fdc142a3bcfb0.addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+            var marker_0d3795b740c6b74811823d82419cf40f = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_294ddffa0cb8cd4fd7bd36569586dc91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1a5e7579f78b858afe0c13b3dee26cf = $(`<div id="html_c1a5e7579f78b858afe0c13b3dee26cf" style="width: 100.0%; height: 100.0%;">Chinese Academy (Beijing, China)</div>`)[0];
+                popup_294ddffa0cb8cd4fd7bd36569586dc91.setContent(html_c1a5e7579f78b858afe0c13b3dee26cf);
+            
+        
+
+        marker_0d3795b740c6b74811823d82419cf40f.bindPopup(popup_294ddffa0cb8cd4fd7bd36569586dc91)
+        ;
+
+        
+    
+    
+            var marker_3f3251464185e76fc6b6427296ce1fb1 = L.marker(
+                [31.8636, 117.2806],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_93cf42122b954cf2d9ca71372ddd83b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adc47c10072d8e4ff86ffb511ba07c03 = $(`<div id="html_adc47c10072d8e4ff86ffb511ba07c03" style="width: 100.0%; height: 100.0%;">University of Science and Technology of China (Hefei, China)</div>`)[0];
+                popup_93cf42122b954cf2d9ca71372ddd83b1.setContent(html_adc47c10072d8e4ff86ffb511ba07c03);
+            
+        
+
+        marker_3f3251464185e76fc6b6427296ce1fb1.bindPopup(popup_93cf42122b954cf2d9ca71372ddd83b1)
+        ;
+
+        
+    
+    
+            var marker_b91536be958be926197892a1ace9f472 = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_54fb8dd6245ec1e01f565b73dce69051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9bb9eb3b731d8fa90307f9b5a7fd57e = $(`<div id="html_f9bb9eb3b731d8fa90307f9b5a7fd57e" style="width: 100.0%; height: 100.0%;">Tsinghua University Center for Life Sciences (Beijing, China)</div>`)[0];
+                popup_54fb8dd6245ec1e01f565b73dce69051.setContent(html_f9bb9eb3b731d8fa90307f9b5a7fd57e);
+            
+        
+
+        marker_b91536be958be926197892a1ace9f472.bindPopup(popup_54fb8dd6245ec1e01f565b73dce69051)
+        ;
+
+        
+    
+    
+            var marker_bbba7874fc2b578f9e35daee36525442 = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_db7e5e5f2b0e1e87c487f40229c4fe05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5236a355c014f48ce1bf0fb215486bf7 = $(`<div id="html_5236a355c014f48ce1bf0fb215486bf7" style="width: 100.0%; height: 100.0%;">Institute of Theoretical Physics (Beijing, China)</div>`)[0];
+                popup_db7e5e5f2b0e1e87c487f40229c4fe05.setContent(html_5236a355c014f48ce1bf0fb215486bf7);
+            
+        
+
+        marker_bbba7874fc2b578f9e35daee36525442.bindPopup(popup_db7e5e5f2b0e1e87c487f40229c4fe05)
+        ;
+
+        
+    
+    
+            var marker_10eb79282ffe1b3ff9603a2831d4a2af = L.marker(
+                [31.2304, 121.4737],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_a0718e806d083c4a0fa6b1a76a67211b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb7b56543b26fb42124d094ac8d06c6d = $(`<div id="html_eb7b56543b26fb42124d094ac8d06c6d" style="width: 100.0%; height: 100.0%;">Shanghai Jiao Tong University (Shanghai, China)</div>`)[0];
+                popup_a0718e806d083c4a0fa6b1a76a67211b.setContent(html_eb7b56543b26fb42124d094ac8d06c6d);
+            
+        
+
+        marker_10eb79282ffe1b3ff9603a2831d4a2af.bindPopup(popup_a0718e806d083c4a0fa6b1a76a67211b)
+        ;
+
+        
+    
+    
+            var marker_71addf549cec7273a829b53162123b41 = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_22003a3c01ab4f50d0b2e5cbd5f5b75f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db20a35a3e5a15bd39f4d87c2a04926 = $(`<div id="html_1db20a35a3e5a15bd39f4d87c2a04926" style="width: 100.0%; height: 100.0%;">Tsinghua University (Beijing, China)</div>`)[0];
+                popup_22003a3c01ab4f50d0b2e5cbd5f5b75f.setContent(html_1db20a35a3e5a15bd39f4d87c2a04926);
+            
+        
+
+        marker_71addf549cec7273a829b53162123b41.bindPopup(popup_22003a3c01ab4f50d0b2e5cbd5f5b75f)
+        ;
+
+        
+    
+    
+            var marker_478d9f251b2aa693d531fdab9cd7edd3 = L.marker(
+                [32.0603, 118.7969],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_806363e4806cf9e0a1c2db6fa604d853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0d0d793146d1b1cdeb10fbe9e5938e7 = $(`<div id="html_f0d0d793146d1b1cdeb10fbe9e5938e7" style="width: 100.0%; height: 100.0%;">Nanjing University (Nanjing, China)</div>`)[0];
+                popup_806363e4806cf9e0a1c2db6fa604d853.setContent(html_f0d0d793146d1b1cdeb10fbe9e5938e7);
+            
+        
+
+        marker_478d9f251b2aa693d531fdab9cd7edd3.bindPopup(popup_806363e4806cf9e0a1c2db6fa604d853)
+        ;
+
+        
+    
+    
+            var marker_b9872196702fff9117995a1354cf7b39 = L.marker(
+                [31.2304, 121.4737],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_bd29ea920ed518387cd82630a2a05814 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed4e6eb937c44a4e6342da27f9bb79d7 = $(`<div id="html_ed4e6eb937c44a4e6342da27f9bb79d7" style="width: 100.0%; height: 100.0%;">Fudan University (Shanghai, China)</div>`)[0];
+                popup_bd29ea920ed518387cd82630a2a05814.setContent(html_ed4e6eb937c44a4e6342da27f9bb79d7);
+            
+        
+
+        marker_b9872196702fff9117995a1354cf7b39.bindPopup(popup_bd29ea920ed518387cd82630a2a05814)
+        ;
+
+        
+    
+    
+            var marker_5df98b2e02b9dc7812a31cff4b2e098d = L.marker(
+                [30.5852, 114.2986],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_d7877ef957e14a907ae8ff51b12d9d58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf83d0e97510e02a1023af2dc8409782 = $(`<div id="html_bf83d0e97510e02a1023af2dc8409782" style="width: 100.0%; height: 100.0%;">China University of Geosciences (Wuhan, China)</div>`)[0];
+                popup_d7877ef957e14a907ae8ff51b12d9d58.setContent(html_bf83d0e97510e02a1023af2dc8409782);
+            
+        
+
+        marker_5df98b2e02b9dc7812a31cff4b2e098d.bindPopup(popup_d7877ef957e14a907ae8ff51b12d9d58)
+        ;
+
+        
+    
+    
+            var marker_8b5ee8f674b6f4de3d224eafe67efcac = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_1c4ee98564c92df6b6540b4ee2c874a2);
+        
+    
+        var popup_04236139c4a265ae0c1de1d696db56b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9487a9ecb3a0e255856cca47672ea25f = $(`<div id="html_9487a9ecb3a0e255856cca47672ea25f" style="width: 100.0%; height: 100.0%;">Chinese Academy of Sciences (Beijing, China)</div>`)[0];
+                popup_04236139c4a265ae0c1de1d696db56b5.setContent(html_9487a9ecb3a0e255856cca47672ea25f);
+            
+        
+
+        marker_8b5ee8f674b6f4de3d224eafe67efcac.bindPopup(popup_04236139c4a265ae0c1de1d696db56b5)
+        ;
+
+        
+    
+</script>
+</html>
